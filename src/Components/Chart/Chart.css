@@ -1,0 +1,39 @@
+.chartWrapper {
+  width: 100%;
+  height: 34vw;
+}
+
+.chart {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.chartselect {
+  width: 130px;
+  height: 40px;
+}
+.recharts-legend-wrapper {
+  display: none !important;
+}
+.selectorWrapper {
+  width: 23rem;
+  height: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+  font-size: 20px;
+  position: relative;
+  top: 33px;
+  left: 65px;
+}
+.recharts-surface {
+  height: 85vh !important;
+}
+.recharts-wrapper{
+  pointer-events: none;
+
+}

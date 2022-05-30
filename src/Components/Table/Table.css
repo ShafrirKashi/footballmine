@@ -1,0 +1,102 @@
+.table {
+  width: 91%;
+  height: 82.3%;
+  margin-left: rem;
+}
+tr:nth-child(even) {
+  background-color: rgb(43, 43, 43);
+  color: rgb(235, 235, 235);
+}
+tr:nth-child(odd) {
+  background-color: rgb(59, 59, 59);
+  color: rgb(233, 233, 233);
+}
+.ant-table-wrapper {
+  height: 100%;
+  width: 94%;
+}
+.ant-spin-container {
+  height: 100%;
+}
+.ant-table-container {
+  height: 100%;
+}
+.ant-spin-nested-loading {
+  height: 100%;
+}
+.ant-table-container table > thead > tr:first-child th:first-child {
+  background-color: rgb(35, 35, 35);
+  color: white;
+  border-bottom: 1px solid rgb(109, 109, 109);
+}
+.ant-table-container table > thead > tr:first-child th:last-child {
+  background-color: rgb(35, 35, 35);
+  color: white;
+  border-bottom: 1px solid rgb(109, 109, 109);
+}
+.ant-table-thead th.ant-table-column-has-sorters {
+  background-color: rgb(35, 35, 35);
+  color: white;
+  border-bottom: 1px solid rgb(109, 109, 109);
+}
+.ant-table-thead th.ant-table-column-has-sorters:hover {
+  background-color: rgb(14, 14, 14);
+  color: white;
+  border-bottom: 1px solid rgb(109, 109, 109);
+}
+.ant-table {
+  border-radius: 20px;
+  height: 93% !important;
+}
+.ant-table-tbody > tr > td {
+  background-color: transparent;
+}
+.ant-table-tbody > tr.ant-table-row:hover > td,
+.ant-table-tbody > tr > td.ant-table-cell-row-hover {
+  background-color: rgb(26, 26, 26);
+}
+.ant-table-body {
+  height: 99.3% !important;
+}
+.ant-empty-normal{
+  background-color: rgb(43, 43, 43);
+  color: white;
+  width: 93vw;
+  height: 64vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ant-table-cell:hover{
+  background-color: rgb(43, 43, 43) !important;
+}
+.ant-table-cell-scrollbar {
+  box-shadow: none;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1d1d1d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(61, 61, 61);
+  border-radius: 30px;
+  width: 10px;
+  box-shadow: inset 1px 2px 2px 2px rgb(124, 124, 124);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(105, 105, 105);
+}
+::-webkit-scrollbar-corner {
+  background: #272727;
+}

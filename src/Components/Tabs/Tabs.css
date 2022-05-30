@@ -1,0 +1,61 @@
+.Tabs {
+  height: 100vh;
+  font-size: 15rem;
+}
+.Tab1 {
+  height: 100vh;
+}
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab-active {
+  background-color: rgb(82, 82, 82);
+  color: white;
+  border-radius: 5px 15px 0px 0px;
+  width: 7rem;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: white;
+}
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab,
+.ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab {
+  border: 1px solid black;
+}
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab + .ant-tabs-tab,
+.ant-tabs-card.ant-tabs-bottom > .ant-tabs-nav .ant-tabs-tab + .ant-tabs-tab,
+.ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab + .ant-tabs-tab,
+.ant-tabs-card.ant-tabs-bottom
+  > div
+  > .ant-tabs-nav
+  .ant-tabs-tab
+  + .ant-tabs-tab {
+  border-radius: 5px 15px 0px 0px;
+  width: 7rem;
+  background-color: rgb(82, 82, 82);
+  color: white;
+}
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab,
+.ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab {
+  background-color: rgb(82, 82, 82);
+  color: white;
+  border-radius: 5px 15px 0px 0px;
+  width: 7rem;
+}
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab-active {
+  background-color: #7877ea !important;
+}
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap,
+.ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap {
+  border-bottom: 1px solid #3b3b3b;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  font-size: 20px;
+}
+.ant-tabs-tab-btn {
+  font-size: 20px;
+}
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab-active, .ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab-active{
+  background-color: blue;
+}
+.TabCharts{
+  width: 100vw;
+}

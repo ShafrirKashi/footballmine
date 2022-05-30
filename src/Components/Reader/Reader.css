@@ -1,0 +1,18 @@
+.reader-wrapper{
+display: flex;
+justify-content: start;
+align-items: center;
+font-size: 18px;
+}
+.btn-add-CSV{
+background-color: rgb(92, 92, 92);
+color: white;
+width: 10rem;
+}
+.btn-remove-CSV{
+background-color: rgb(158, 158, 158);
+}
+.fileName{
+    color: white;
+    margin-left: 2rem;
+}

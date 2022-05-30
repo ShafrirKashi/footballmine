@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-color: #010409;
+  color: #c9d1d9;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: SFProT;
 }
 
 .App-logo {
@@ -35,4 +40,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 93vh;
+  overflow: hidden;
+}
+.sidebarApp{
+width: 30%;
+} 
+.tableApp{
+  width: 99.7%;
+  transition: 0.3s;
+
+}
+.tableAppOpen{
+  width: 92.7%;
+  transition: 0.3s;
+
+
 }

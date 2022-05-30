@@ -1,0 +1,61 @@
+.pitch-background {
+  background-image: url("../../Assets/Img/pitch.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 27%;
+  width: 100vw;
+  height: 100vh;
+}
+.stats-wrapper {
+  display: grid;
+  grid-template-columns: 21.6% 10% 10% 10% 10%;
+  grid-template-rows: 130% 29% 17% 24% 29% 50% 54%;
+  font-size: 3rem;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.fieldP {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OSix {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Center {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SixLeft {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SixRight {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
